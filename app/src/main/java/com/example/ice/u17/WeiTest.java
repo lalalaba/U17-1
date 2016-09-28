@@ -5,4 +5,5 @@ package com.example.ice.u17;
  */
 
 public class WeiTest {
+    public void sayHello(){}
 }
