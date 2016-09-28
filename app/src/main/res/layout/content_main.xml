@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ice.u17.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_recommend"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@mipmap/main_radiobutton_recommend_normal"
+            android:gravity="center"
+            android:text="@string/recommend"
+            android:textColor="@color/selector_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/rb_boutique"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/main_radiobutton_boutique_normal"
+            android:gravity="center"
+            android:text="@string/boutique"
+            android:textColor="@color/selector_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/rb_bookshelf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/main_radiobutton_bookshelf_normal"
+            android:gravity="center"
+            android:text="@string/bookshelf"
+            android:textColor="@color/selector_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/rb_game"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@mipmap/main_radiobutton_game_normal"
+            android:gravity="center"
+            android:text="@string/game"
+            android:textColor="@color/selector_radiobutton" />
+    </RadioGroup>
+
+</LinearLayout>
